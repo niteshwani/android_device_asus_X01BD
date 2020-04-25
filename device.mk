@@ -164,7 +164,7 @@ PRODUCT_PACKAGES += \
 
 # Doze mode
 PRODUCT_PACKAGES += \
-    Doze
+     CustomDoze
 
 # FM
 PRODUCT_PACKAGES += \
