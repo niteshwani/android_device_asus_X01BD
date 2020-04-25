@@ -22,6 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common LineageOS stuff
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
+# Inherit GApps
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
+
 #Bliss Official
 export BLISS_BUILDTYPE=OFFICIAL
 export BLISS_DEVELOPER=Nitesh121
