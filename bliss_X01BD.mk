@@ -25,6 +25,9 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 # Inherit GApps
 $(call inherit-product-if-exists, vendor/gapps/gapps.mk)
 
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 #Bliss Official
 export BLISS_BUILDTYPE=OFFICIAL
 export BLISS_DEVELOPER=Nitesh121
