@@ -32,6 +32,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 export BLISS_BUILDTYPE=OFFICIAL
 export BLISS_DEVELOPER=Nitesh121
 
+# Device Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.bliss.maintainer=Nitesh121
+
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
